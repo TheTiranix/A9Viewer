@@ -7,7 +7,7 @@ App para ver las cámaras espía A9 (las que usan YsxLite o FtyCamPro) sin la ap
 En [Releases](../../releases/latest):
 
 - **A9Viewer-1.8.apk**: Android 10 o más nuevo.
-- **A9Viewer-PC-1.0.zip**: Windows 10/11. Descomprimir y abrir `A9 Viewer.exe`. Trae su propio Java, no hay que instalar nada.
+- **A9Viewer-PC-1.1.zip**: Windows 10/11. Descomprimir y abrir `A9 Viewer.exe`. Trae su propio Java, no hay que instalar nada.
 
 ## Qué hace
 
@@ -22,6 +22,7 @@ PC (Windows):
 
 - Video en vivo, audio, visión nocturna, nitidez, rotar, espejo y foto.
 - Cargar la cámara escribiendo el ID o abriendo una imagen del QR.
+- Detección de movimiento: graba videos MP4 o saca fotos en `Videos\A9 Viewer`, o deja que la cámara grabe sola en su SD. Con la ventana cerrada sigue vigilando desde la bandeja de Windows.
 
 ## Permisos en Android
 
@@ -41,3 +42,4 @@ PC (Windows):
 
 - Protocolo de la cámara basado en el trabajo de [cam-reverse](https://github.com/DavidVentura/cam-reverse).
 - Lector de QR: [ZXing](https://github.com/zxing/zxing) (Apache 2.0).
+- Videos de la app de PC: [JCodec](https://github.com/jcodec/jcodec) (BSD).
